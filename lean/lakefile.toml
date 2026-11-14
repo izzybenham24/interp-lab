@@ -1,0 +1,10 @@
+name = "InterpLab"
+version = "0.1.0"
+defaultTargets = ["interplab"]
+
+[[lean_lib]]
+name = "InterpLab"
+
+[[lean_exe]]
+name = "interplab"
+root = "Main"
